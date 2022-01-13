@@ -1,0 +1,24 @@
+#logo {
+    margin-left: 50px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: auto;
+}
+
+#navbar ul li {
+    padding: 50px;
+    border-bottom: 4px solid transparent;
+    border-radius: 2px;
+}
+
+#navbar li a:hover {
+    color: var(--tirtary-color);
+}
