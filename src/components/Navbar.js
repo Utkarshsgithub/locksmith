@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav id="navbar">
             <div id="logo">
-                <a className='remove_link_style' href="/"><img src="" alt="Viking Locksmith Logo" /></a>
+                <a className='remove_link_style' href="/"><img src="\src\images\logo.png" alt="Viking Locksmith Logo" /></a>
             </div>
             <ul className='remove_list_style'>
                 <li><a className='remove_link_style trans2s' href='/'>Home</a></li>

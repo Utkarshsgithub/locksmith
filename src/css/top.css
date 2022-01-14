@@ -1,7 +1,17 @@
+#top {
+    height: 500px;
+    background: url('/src/images/main-img.jpg');
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
 #top-card {
     width: 600px;
     padding: 50px;
     background: #fff7de;
+    position: relative;
+    bottom: -249px;
+    left: 100px;
 }
 
 #top-card p {

@@ -1,0 +1,28 @@
+.active-tab {
+    border-bottom: 5px solid var(--tirtary-color);
+}
+
+.non-active-tab {
+    color: var(--forth-color);
+    border-bottom: .5px solid var(--forth-color);
+}
+
+#tabs {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tabs ul {
+    display: flex;
+}
+
+#tabs ul li {
+    cursor: pointer;
+    padding: 20px 74px;
+}
+
+.non-active-tab:hover {
+    border-bottom: 5px solid var(--forth-color);
+}

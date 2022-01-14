@@ -1,0 +1,43 @@
+#service {
+    margin: 0 10px;
+}
+
+#service-desc {
+    width: 60%;
+}
+
+#service-desc h1 {
+    margin: 30px 0;
+}
+
+#service-desc p {
+    color: var(--forth-color);
+}
+
+.link a {
+    text-decoration: none;
+    color: #155cff;
+    display: inline-block;
+    margin: 15px 0;
+    border-bottom: 2px solid #155cff;
+}
+
+.link a:hover {
+    color: #111;
+    border-color: #111;
+}
+
+#service-cta {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#service-cta p {
+    margin-top: 30px;
+}
+
+#cta-btn {
+    margin-top: 30px;
+}

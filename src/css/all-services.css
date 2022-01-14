@@ -1,0 +1,25 @@
+#all-services {
+    background: #def5f0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#all-services h1 {
+    margin: 50px 0;
+}
+
+.card {
+    margin: 0 20px;
+}
+
+.card h3 {
+    margin: 30px 0;
+}
+
+#cards {
+    display: flex;
+    align-items: center;
+}
