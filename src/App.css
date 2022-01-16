@@ -19,7 +19,6 @@ body {
   background: var(--primary-color);
   color: var(--secondary-color);
   line-height: 30px;
-  height: 10000px;
 }
 
 a:active{
@@ -65,4 +64,26 @@ transition: .2s ease-in-out;
 
 .btn:hover {
   background: var(--forth-color);
+}
+
+.btn-white {
+  padding: 18px 30px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  outline: none;
+  border: none;
+  font-size: medium;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  letter-spacing: 2px;
+  transition: background-color .2s ease-in-out;
+}
+
+.btn-white:hover {
+  background: rgb(225, 225, 225);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

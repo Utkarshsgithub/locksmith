@@ -1,5 +1,8 @@
 #logo {
     margin-left: 50px;
+    font-family: 'DM Serif Display', serif;
+    color: var(--tirtary-color);
+    font-size: 3rem;
 }
 
 #navbar {

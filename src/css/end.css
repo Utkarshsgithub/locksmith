@@ -1,0 +1,14 @@
+#end {
+    background: #f9f9f9;
+    padding: 10px 50px;
+    display: flex;
+}
+
+#credit a {
+    border-bottom: 1px solid transparent;
+    color: var(--tirtary-color);
+}
+
+#credit a:hover {
+    border-color: var(--tirtary-color);
+}

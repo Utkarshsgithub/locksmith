@@ -41,3 +41,18 @@
 #cta-btn {
     margin-top: 30px;
 }
+
+#cta-com-img {
+    background: url(/src/images/commercial2.jpg);
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+}
+
+#copyright {
+    margin-left: 50px;
+}
+
+#copyright h1 {
+    line-height: 30px;
+}

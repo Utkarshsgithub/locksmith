@@ -13,13 +13,36 @@
 
 .card {
     margin: 0 20px;
+    width: 330px;
 }
 
 .card h3 {
-    margin: 30px 0;
+    margin: 30px 0 15px 0;
 }
 
 #cards {
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
+}
+
+#res-img {
+    height: 200px;
+    background: url(/src/images/residential.jpg);
+    background-size: cover;
+}
+#eme-img {
+    height: 200px;
+    background: url(/src/images/emergency.jpg);
+    background-size: cover;
+}
+#aut-img {
+    height: 200px;
+    background: url(/src/images/automotive.jpg);
+    background-size: cover;
+}
+#com-img {
+    height: 200px;
+    background: url(/src/images/commercial.jpg);
+    background-size: cover;
 }

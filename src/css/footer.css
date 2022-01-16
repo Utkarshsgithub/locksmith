@@ -1,0 +1,73 @@
+#footer {
+    padding: 50px;
+}
+
+#footer-top {
+    color: var(--forth-color);
+    padding: 50px 50px 100px 50px;
+}
+
+#socials {
+    display: flex;
+    align-items: center;
+}
+
+#icons {
+    display: flex;
+    margin-left: 25px;
+}
+
+.icon {
+    margin: 0 5px;
+    height: 30px;
+    width: 30px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#fb {
+    background: rgb(2, 2, 199);
+}
+
+#in {
+    background: rgb(250, 63, 94);
+}
+
+#yt {
+    background: red;
+}
+
+#li {
+    background: navy;
+}
+
+#tw {
+    background: rgb(0, 160, 223);
+}
+
+hr {
+    margin: 20px 0;
+}
+
+#links {
+    display: flex;
+}
+
+#links ul {
+    margin-right: 15%;
+}
+
+.ul-heading {
+    margin-bottom: 10px;
+}
+
+#links ul li {
+    margin-top: 15px;
+}
+
+#links ul li a:hover {
+    text-decoration: underline;
+}
