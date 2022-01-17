@@ -55,7 +55,7 @@ export default function Navbar() {
             onClick={() => showDropdown()}
             className="remove_link_style trans2s"
             to="/service"
-          >
+            >
             Services<i className="fas fa-chevron-down"></i>
           </Link>
           {serviceUl}
