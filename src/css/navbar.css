@@ -17,11 +17,26 @@
 }
 
 #navbar ul li {
-    padding: 50px;
     border-bottom: 4px solid transparent;
     border-radius: 2px;
 }
 
 #navbar li a:hover {
     color: var(--tirtary-color);
+}
+
+#service-ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary-color);
+    border-radius: 2px;
+}
+
+#service-ul li {
+    padding: 20px 30px;
+}
+
+.padding-50 {
+    padding: 50px;
 }

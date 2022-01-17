@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function Service({ h1, h2, p1, p2, service }) {
+export default function Service({ h1, h2, p1, p2, service, imgSrc }) {
+  
   return (
     <div id="service">
       <div id="commercial-locksmith-service">
@@ -13,7 +14,7 @@ export default function Service({ h1, h2, p1, p2, service }) {
           </p>
         </div>
         <div id="service-cta">
-          <div id="cta-com-img">hello</div>
+          <img src={imgSrc} alt={`${service} service`} />
           <div id="copyright">
             <h1>{h2}</h1>
             <p>{p2}</p>

@@ -42,13 +42,12 @@
     margin-top: 30px;
 }
 
-#cta-com-img {
-    background: url(/src/images/commercial2.jpg);
+#service-cta img {
     height: 400px;
-    width: 50%;
+    width: 550px;
     background-size: cover;
 }
-
+ 
 #copyright {
     margin-left: 50px;
 }
