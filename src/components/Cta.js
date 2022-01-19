@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Cta() {
+export default function Cta({setProgress}) {
+    setProgress(60)
     return (
         <div id="cta-section">
             <div id="cta-content">

@@ -1,6 +1,7 @@
 import React from 'react'
 
-export default function Top() {
+export default function Top({setProgress}) {
+    setProgress(20)
     return (
         <div id="top">
             <div id="top-card">
@@ -10,6 +11,7 @@ export default function Top() {
                   Let's Talk 
                 </button>
             </div>
+            {()=>setProgress(60)}
         </div>
     )
 }

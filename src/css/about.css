@@ -1,0 +1,77 @@
+#about {
+    width: 90%;
+}
+
+#about-top {
+    background: #01bda4;
+}
+
+#top-main {
+    width: 90%;
+    background: linear-gradient(to right, #007974, #006663);
+    height: 500px;
+    border-radius: 0% 21% 36% 0% / 10% 85% 0% 10% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+#top-main h1 {
+    margin: 20px 0 30px 0;
+    font-size: 4rem;
+}
+
+#top-content {
+    margin-left: 50px;
+}
+
+#top-main p {
+    font-size: 1.3rem;
+}
+
+#stylish-p {
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+#about-article {
+    font-size: 1.3rem;
+}
+
+#about-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 400px;
+    height: 500px;
+    border: 0.1px solid rgba(17, 17, 17, 0.3);
+    border-top: 10px solid var(--tirtary-color);
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-card-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 95%;
+    margin: 50px 0;
+}
+
+.about-btn {
+    margin-top: auto;
+}
+
+.card-circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid rgba(17, 17, 17, 0.3);
+}

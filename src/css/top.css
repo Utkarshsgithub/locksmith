@@ -2,7 +2,7 @@
     height: 500px;
     background: url('/src/images/main-img.jpg');
     background-size: cover;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 #top-card {
@@ -17,3 +17,4 @@
 #top-card p {
     margin: 30px 0;
 }
+ 

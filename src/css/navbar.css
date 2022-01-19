@@ -19,6 +19,7 @@
 #navbar ul li {
     border-bottom: 4px solid transparent;
     border-radius: 2px;
+    font-size: 1.1rem;
 }
 
 #navbar li a:hover {

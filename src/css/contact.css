@@ -1,0 +1,66 @@
+#contactus {
+}
+
+#contact-main {
+    display: flex;
+}
+
+#contact-info {
+height: 900px;
+background: #ffeded;
+width: 50%;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+#contact-info h2 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: #c20029;
+    letter-spacing: 3px;
+    font-size: 2.3rem;
+}
+
+#contact-info p {
+    margin: 25px 0;
+}
+
+#contact-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 80%;
+}
+
+form input {
+    padding: 18px 30px;
+    background: var(--primary-color);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin: 20px 0;
+    height: 30px;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+#contact-btn {
+    margin-top: 20px;
+}
+
+#lastname {
+    margin-left: 20px;
+}
+
+#contact-img {
+
+}
+
+#contact-img {
+    background: url(/src/images/automotive\ locksmith\ in\ florida.jpg);
+    background-size: cover;
+    width: 50%;
+}

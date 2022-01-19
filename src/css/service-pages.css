@@ -1,0 +1,46 @@
+#sp-top {
+    height: 500px;
+    background: url('/src/images/best locksmith in florida.jpg');
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+#sp-top-card {
+    width: 600px;
+    padding: 50px;
+    background: #ffeded;
+    position: relative;
+    bottom: -249px;
+    left: 100px;
+}
+
+#sp-top-card p {
+    margin: 30px 0;
+}
+
+#sp-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    width: 60%;
+    padding: 50px 0;
+}
+
+article h1 {
+    margin: 50px 0;
+}
+
+article h3 {
+    margin: 25px 0;
+}
+
+#article-links {
+    display: flex;
+}
+
+.article-link {
+    margin-right: 25px;
+}

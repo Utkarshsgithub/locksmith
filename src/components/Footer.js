@@ -1,7 +1,8 @@
 import React from 'react'
 import End from './End'
 
-export default function Footer() {
+export default function Footer({setProgress}) {
+    setProgress(100)
     return (
         <>
         <footer id="footer">

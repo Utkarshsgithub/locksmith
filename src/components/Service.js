@@ -7,8 +7,7 @@ export default function Service({ h1, h2, p1, p2, service, imgSrc }) {
       <div id="commercial-locksmith-service">
         <div id="service-desc">
           <h1>{h1}</h1>
-          <p>{p1}
-          </p>
+          <p>{p1} </p>
           <p className="link">
             <a href="/">{`Read all about our ${service} locksmith services`}</a>
           </p>

@@ -1,34 +1,38 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({setProgress}) {
   const [dropdown, setDropdown] = useState(false);
   const [serviceUl, setServiceUl] = useState(<></>)
+  const [arrow, setArrow] = useState('fas fa-chevron-down')
+
+  setProgress(10)
 
   function showDropdown() {
     if (dropdown === false) {
       setDropdown(true);
+      setArrow('fas fa-chevron-up')
       setServiceUl(
           <ul id="service-ul" className="remove_list_style">
                   <li style={{ marginTop: "50px" }}>
-                    <a className="remove_link_style" href="/">
+                    <Link className="remove_link_style" to="/residential-service">
                       Residential Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="remove_link_style" href="/">
+                    <Link className="remove_link_style" to="/automotive-service">
                       Automotive Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="remove_link_style" href="/">
+                    <Link className="remove_link_style" to="/commercial-service">
                       Commercial Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="remove_link_style" href="/">
+                    <Link className="remove_link_style" to="/emergency-service">
                       Emergency Services
-                    </a>
+                    </Link>
                   </li>
                 </ul>
       )
@@ -36,6 +40,7 @@ export default function Navbar() {
     } else {
       setDropdown(false);
       setServiceUl(<></>)
+      setArrow('fas fa-chevron-down')
       console.log('false chala')
     }
   }
@@ -51,24 +56,24 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="padding-50">
-          <Link
+          <a
             onClick={() => showDropdown()}
             className="remove_link_style trans2s"
-            to="/service"
+            href='#'
             >
-            Services<i className="fas fa-chevron-down"></i>
-          </Link>
+            Services<i style={{marginTop: 'auto'}} className={arrow}></i>
+          </a>
           {serviceUl}
         </li>
         <li className="padding-50">
-          <a className="remove_link_style trans2s" href="/">
+          <Link className="remove_link_style trans2s" to="/about">
             About Us
-          </a>
+          </Link>
         </li>
         <li className="padding-50">
-          <a className="remove_link_style trans2s" href="/">
+          <Link className="remove_link_style trans2s" to="/contact">
             Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

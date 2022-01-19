@@ -1,6 +1,7 @@
 import React from "react";
 
-export default function AllServices() {
+export default function AllServices({setProgress}) {
+  setProgress(40)
   return (
     <div id="all-services">
       <h1>Know More About Our Locksmith Services!</h1>

@@ -87,3 +87,26 @@ transition: .2s ease-in-out;
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.btn-red {
+  padding: 18px 30px;
+  background: #c20029;
+  color: var(--primary-color);
+  outline: none;
+  border: none;
+  font-size: medium;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.btn-red:hover {
+  background: #640016;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
