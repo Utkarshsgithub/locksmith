@@ -14,6 +14,7 @@
 .card {
     margin: 0 20px;
     width: 330px;
+    margin-bottom: 25px;
 }
 
 .card h3 {
@@ -23,7 +24,9 @@
 #cards {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 #res-img {

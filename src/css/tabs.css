@@ -4,7 +4,10 @@
 
 .non-active-tab {
     color: var(--forth-color);
-    border-bottom: .5px solid var(--forth-color);
+}
+
+.non-active-tab:hover {
+    border-bottom: 5px solid var(--forth-color);
 }
 
 #tabs {
@@ -12,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid var(--forth-color);
 }
 
 #tabs ul {
@@ -20,9 +24,7 @@
 
 #tabs ul li {
     cursor: pointer;
-    padding: 20px 74px;
-}
-
-.non-active-tab:hover {
-    border-bottom: 5px solid var(--forth-color);
+    width: 200px;
+    padding: 20px 10px;
+    margin: 0 2%;
 }

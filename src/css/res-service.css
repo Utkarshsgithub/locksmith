@@ -1,0 +1,15 @@
+#res-service-table {
+    margin-top: 150px;
+}
+
+#res-service-table ul li {
+    width: 700px;
+    padding: 25px;
+    border-bottom: 1px solid var(--forth-color);
+    font-size: 1.2rem;
+    color: var(--forth-color);
+}
+
+#res-service-table ul li i {
+    float: right;
+}

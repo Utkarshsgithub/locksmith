@@ -20,7 +20,6 @@ export default function ContactUs({setProgress}) {
                     </form>
                 </div>
                 <div id="contact-img">
-                    hello
                 </div>
             </div>
         </div>

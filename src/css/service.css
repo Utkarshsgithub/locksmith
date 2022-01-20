@@ -50,8 +50,16 @@
  
 #copyright {
     margin-left: 50px;
+    width: 364px;
 }
 
 #copyright h1 {
     line-height: 30px;
 }
+
+@media only screen and (max-width: 1000px) {
+    #service-cta img {
+      height: 300px;
+      width: 450px;
+    }
+  }

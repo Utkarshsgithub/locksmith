@@ -30,7 +30,7 @@ i {
 }
 
 .container {
-  width: 80%;
+  width: 1000px;
   margin: auto;
 }
 
@@ -110,3 +110,15 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
 }
+
+/* ------------------- MEDIA QUERRIES ----------------------- */
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 900px;
+  }
+  #service-cta img {
+    width: 400px;
+  }
+}
+

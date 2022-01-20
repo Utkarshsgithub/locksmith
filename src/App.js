@@ -15,6 +15,8 @@ import "./css/end.css";
 import "./css/service-pages.css";
 import "./css/contact.css";
 import "./css/about.css";
+import "./css/res-top.css";
+import "./css/res-service.css";
 /////////////////////////////////
 
 // COMPONENTS IMPORTS
@@ -30,7 +32,7 @@ import Commercial from "./components/Commercial";
 import Emergency from "./components/Emergency";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
-///////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
 function App() {
   const [tab, setTab] = useState(1);
@@ -47,7 +49,7 @@ function App() {
               progress={progress}
             />
             <Navbar setProgress={setProgress} />
-            <Top setProgress={setProgress} />
+            <Top setProgress={setProgress}/>
             <div className="container">
               <Tabs setProgress={setProgress} tab={tab} setTab={setTab} />
             </div>

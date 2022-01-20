@@ -47,7 +47,7 @@ export default function AboutUs({ setProgress }) {
           </article>
           <div id="about-cards">
             <div className="about-card">
-              <div className="card-circle"></div>
+              <div className="card-circle"><i class="fas fa-car"></i></div>
               <div className="about-card-content">
                 <h2>Automotive Locksmith</h2>
                 <p>
@@ -55,11 +55,11 @@ export default function AboutUs({ setProgress }) {
                   Officia illum at et ut nisi nulla aliquid quasi ipsa sed
                   omnis!
                 </p>
-                <button className="btn">Let's Talk</button>
+                <button className="about-btn btn">Let's Talk</button>
               </div>
             </div>
             <div className="about-card">
-              <div className="card-circle"></div>
+              <div className="card-circle"><i class="fas fa-key"></i></div>
               <div className="about-card-content">
                 <h2>Commercial Locksmith</h2>
                 <p>
@@ -67,11 +67,11 @@ export default function AboutUs({ setProgress }) {
                   Officia illum at et ut nisi nulla aliquid quasi ipsa sed
                   omnis!
                 </p>
-                <button className="btn">Let's Talk</button>
+                <button className="about-btn btn">Let's Talk</button>
               </div>
             </div>
             <div className="about-card">
-              <div className="card-circle">h</div>
+              <div className="card-circle"><i class="fas fa-home"></i></div>
               <div className="about-card-content">
                 <h2>Residential locksmith</h2>
                 <p>
@@ -79,11 +79,11 @@ export default function AboutUs({ setProgress }) {
                   Officia illum at et ut nisi nulla aliquid quasi ipsa sed
                   omnis!
                 </p>
-                <button className="btn">Let's Talk</button>
+                <button className="about-btn btn">Let's Talk</button>
               </div>
             </div>
             <div className="about-card">
-              <div className="card-circle"></div>
+              <div className="card-circle"><i class="far fa-times-circle"></i></div>
               <div className="about-card-content">
                 <h2>Emergency Locksmith</h2>
                 <p>
