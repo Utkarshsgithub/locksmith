@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 
-// CSS IMPORTS
+// CSS IMPORTS -------------------
 import "./App.css";
 import "./css/navbar.css";
 import "./css/top.css";
@@ -17,9 +17,9 @@ import "./css/contact.css";
 import "./css/about.css";
 import "./css/res-top.css";
 import "./css/res-service.css";
-/////////////////////////////////
+// --------------------------------
 
-// COMPONENTS IMPORTS
+// COMPONENTS IMPORTS -----------------------------
 import Navbar from "./components/Navbar";
 import Tabs from "./components/Tabs";
 import Top from "./components/Top";
@@ -32,7 +32,7 @@ import Commercial from "./components/Commercial";
 import Emergency from "./components/Emergency";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
-////////////////////////////////////////////////////
+// -------------------------------------------------
 
 function App() {
   const [tab, setTab] = useState(1);
