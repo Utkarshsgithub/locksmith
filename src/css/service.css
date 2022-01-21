@@ -44,17 +44,17 @@
 
 #service-cta img {
     height: 400px;
-    width: 550px;
+    width: 600px;
     background-size: cover;
 }
- 
+
 #copyright {
     margin-left: 50px;
-    width: 364px;
+    width: 400px;
 }
 
 #copyright h1 {
-    line-height: 30px;
+    line-height: 40px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -62,4 +62,17 @@
       height: 300px;
       width: 450px;
     }
-  }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 900px;
+    }
+    #service-cta img {
+        width: 400px;
+    }
+    #tabs ul li {
+        padding: 20px 5px;
+        margin: 0;
+    }
+}

@@ -19,11 +19,11 @@ export default function Footer({setProgress}) {
                 <div id="socials">
                     CONNECT WITH US
                     <div id="icons">
-                        <a target='_blank' className='remove_link_style' href="https://facebook.com"><div id='fb' className="icon"><i class="fab fa-facebook-f"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://youtube.com"><div id='yt' className="icon"><i class="fab fa-youtube"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://twitter.com"><div id='tw' className="icon"><i class="fab fa-twitter"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://linkedin.com"><div id='li' className="icon"><i class="fab fa-linkedin-in"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://instagram.com"><div id='in' className="icon"><i class="fab fa-instagram"></i></div></a>
+                        <a target='_blank' className='remove_link_style' href="https://facebook.com"><div id='fb' className="icon"><i className="fab fa-facebook-f"></i></div></a>
+                        <a target='_blank' className='remove_link_style' href="https://youtube.com"><div id='yt' className="icon"><i className="fab fa-youtube"></i></div></a>
+                        <a target='_blank' className='remove_link_style' href="https://twitter.com"><div id='tw' className="icon"><i className="fab fa-twitter"></i></div></a>
+                        <a target='_blank' className='remove_link_style' href="https://linkedin.com"><div id='li' className="icon"><i className="fab fa-linkedin-in"></i></div></a>
+                        <a target='_blank' className='remove_link_style' href="https://instagram.com"><div id='in' className="icon"><i className="fab fa-instagram"></i></div></a>
                     </div>
                 </div>
                 <hr />

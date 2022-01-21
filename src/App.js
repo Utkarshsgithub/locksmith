@@ -50,9 +50,7 @@ function App() {
             />
             <Navbar setProgress={setProgress} />
             <Top setProgress={setProgress}/>
-            <div className="container">
               <Tabs setProgress={setProgress} tab={tab} setTab={setTab} />
-            </div>
             <AllServices setProgress={setProgress} />
             <Cta setProgress={setProgress} />
             <Footer setProgress={setProgress} />

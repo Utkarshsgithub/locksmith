@@ -36,12 +36,10 @@ export default function Navbar({setProgress}) {
                   </li>
                 </ul>
       )
-      console.log('true chala')
     } else {
       setDropdown(false);
       setServiceUl(<></>)
       setArrow('fas fa-chevron-down')
-      console.log('false chala')
     }
   }
   return (

@@ -1,5 +1,8 @@
 #res-service-table {
-    margin-top: 150px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #res-service-table ul li {
@@ -7,9 +10,38 @@
     padding: 25px;
     border-bottom: 1px solid var(--forth-color);
     font-size: 1.2rem;
-    color: var(--forth-color);
 }
 
 #res-service-table ul li i {
     float: right;
+}
+
+.li-content {
+    padding: 15px;
+}
+
+.li-content h2 {
+    margin: 25px 0;
+    line-height: 50px;
+}
+
+.li-content img {
+    height: 200px;
+    margin: 25px 0 0 0;
+}
+
+.non-active-col {
+    color: var(--forth-color);
+}
+
+.active-col {
+    color: #111;
+    background: rgb(202, 202, 202);
+    border-top: 5px solid var(--tirtary-color);
+}
+
+@media only screen and (max-width: 760px) {
+    #res-service-table ul li {
+        width: 400px;
+    }
 }

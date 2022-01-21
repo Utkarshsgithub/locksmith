@@ -76,7 +76,7 @@ export default function Tabs({ tab, setTab }) {
   }
   if (windowWidth > 900) {
     return (
-      <>
+      <div className="container">
         <div id="tabs">
           <ul className="remove_list_style">
             <li
@@ -114,9 +114,19 @@ export default function Tabs({ tab, setTab }) {
           service={service}
           imgSrc={imgSrc}
         />
-      </>
+      </div>
     );
   } else {
-    return <ResService />;
+    return (
+      <ResService
+        h1={h1}
+        h2={h2}
+        p1={p1}
+        p2={p2}
+        tab={tab}
+        service={service}
+        imgSrc={imgSrc}
+      />
+    );
   }
 }
