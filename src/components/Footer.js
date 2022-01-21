@@ -1,5 +1,6 @@
 import React from 'react'
 import End from './End'
+import { Link } from "react-router-dom";
 
 export default function Footer({setProgress}) {
     setProgress(100)
@@ -17,37 +18,37 @@ export default function Footer({setProgress}) {
             </div>
             <div id="footer-bottom">
                 <div id="socials">
-                    CONNECT WITH US
+                    <div style={{marginLeft: '5px'}}>CONNECT WITH US</div>
                     <div id="icons">
-                        <a target='_blank' className='remove_link_style' href="https://facebook.com"><div id='fb' className="icon"><i className="fab fa-facebook-f"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://youtube.com"><div id='yt' className="icon"><i className="fab fa-youtube"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://twitter.com"><div id='tw' className="icon"><i className="fab fa-twitter"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://linkedin.com"><div id='li' className="icon"><i className="fab fa-linkedin-in"></i></div></a>
-                        <a target='_blank' className='remove_link_style' href="https://instagram.com"><div id='in' className="icon"><i className="fab fa-instagram"></i></div></a>
+                        <a target='_blank' rel="noreferrer" className='remove_link_style' href="https://facebook.com"><div id='fb' className="icon"><i className="fab fa-facebook-f"></i></div></a>
+                        <a target='_blank' rel="noreferrer" className='remove_link_style' href="https://youtube.com"><div id='yt' className="icon"><i className="fab fa-youtube"></i></div></a>
+                        <a target='_blank' rel="noreferrer" className='remove_link_style' href="https://twitter.com"><div id='tw' className="icon"><i className="fab fa-twitter"></i></div></a>
+                        <a target='_blank' rel="noreferrer" className='remove_link_style' href="https://linkedin.com"><div id='li' className="icon"><i className="fab fa-linkedin-in"></i></div></a>
+                        <a target='_blank' rel="noreferrer" className='remove_link_style' href="https://instagram.com"><div id='in' className="icon"><i className="fab fa-instagram"></i></div></a>
                     </div>
                 </div>
                 <hr />
                 <div id="links">
                     <ul className='remove_list_style'>
                         <li className='ul-heading'><strong>Go To</strong></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">Home</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">Contact Us</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">About Us</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">Our Services</a></li>
+                        <li><Link className='remove_link_style' to="/">Home</Link></li>
+                        <li><Link className='remove_link_style' to="/contact">Contact Us</Link></li>
+                        <li><Link className='remove_link_style' to="/about">About Us</Link></li>
+                        <li><Link className='remove_link_style' to="/automotive-service">Our Services</Link></li>
                     </ul>
                     <ul className='remove_list_style'>
                         <li className='ul-heading'><strong>Contact Us</strong></li>
-                        <li><a target='_blank' className='remove_link_style' href="mailto:info@vikinglocksmith.com">Email</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="tel:(783)4309-9743">Call Us</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="https://twitter.com/">Twitter</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="https://facebook.com/">Facebook</a></li>
+                        <li><a target='_blank' rel="noreferrer" className='remove_link_style' href="mailto:info@vikinglocksmith.com">Email</a></li>
+                        <li><a target='_blank' rel="noreferrer" className='remove_link_style' href="tel:(783)4309-9743">Call Us</a></li>
+                        <li><a target='_blank' rel="noreferrer" className='remove_link_style' href="https://twitter.com/">Twitter</a></li>
+                        <li><a target='_blank' rel="noreferrer" className='remove_link_style' href="https://facebook.com/">Facebook</a></li>
                     </ul>
-                    <ul className='remove_list_style'>
+                    <ul id='extra-ul' className='remove_list_style'>
                         <li className='ul-heading'><strong>What We Offer</strong></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">Residential Services</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">Automotive Services</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">Commercial Services</a></li>
-                        <li><a target='_blank' className='remove_link_style' href="/">Emergency Services</a></li>
+                        <li><Link className='remove_link_style' to="/residential-service">Residential Services</Link></li>
+                        <li><Link className='remove_link_style' to="/automotive-service">Automotive Services</Link></li>
+                        <li><Link className='remove_link_style' to="/commercial-service">Commercial Services</Link></li>
+                        <li><Link className='remove_link_style' to="/emergency-service">Emergency Services</Link></li>
                     </ul>
                 </div>
             </div>

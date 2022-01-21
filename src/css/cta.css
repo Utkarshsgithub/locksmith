@@ -15,4 +15,29 @@
 
 #cta-content p {
     margin: 50px 0;
+    width: 581px;
+}
+
+@media only screen and (max-width: 750px) {
+    #cta-content {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #cta-content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #cta-content p {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    #cta-content p {
+        font-size: 1rem;
+    }
 }

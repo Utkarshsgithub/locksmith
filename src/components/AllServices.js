@@ -7,7 +7,7 @@ export default function AllServices({setProgress}) {
       <h1>Know More About Our Locksmith Services!</h1>
       <div id="cards">
         <div className="card" id="res">
-          <div id="res-img"></div>
+          <div id="res-img" className='card-img-height'></div>
           <h3>Looking for Residendial Locksmith?</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
@@ -18,7 +18,7 @@ export default function AllServices({setProgress}) {
           </p>
         </div>
         <div className="card" id="com">
-          <div id="com-img"></div>
+          <div id="com-img" className='card-img-height'></div>
           <h3>Need a Commercial Locksmith?</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
@@ -29,7 +29,7 @@ export default function AllServices({setProgress}) {
           </p>
         </div>
         <div className="card" id="aut">
-          <div id="aut-img"></div>
+          <div id="aut-img" className='card-img-height'></div>
           <h3>Need Locksmith for your vichle?</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
@@ -40,7 +40,7 @@ export default function AllServices({setProgress}) {
           </p>
         </div>
         <div className="card" id="eme">
-          <div id="eme-img"></div>
+          <div id="eme-img" className='card-img-height'></div>
           <h3>Are you in an emergency?</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia,

@@ -5,9 +5,7 @@ export default function ResService({ h2, p1, p2, service, imgSrc }) {
   let resCol = document.getElementById('res-col');
   let autCol = document.getElementById('aut-col');
   let emeCol = document.getElementById('eme-col');
-
-  const [arrow, setArrow] = useState("fas fa-chevron-down");
-
+  
   const [showComContent, setShowComContent] = useState(false);
   const [comContent, setComContent] = useState(<></>);
 
@@ -127,25 +125,25 @@ export default function ResService({ h2, p1, p2, service, imgSrc }) {
   return (
     <div id="res-service-table">
       <ul className="remove_list_style">
-        <li style={{marginRight: '0'}} id="com-col" className="trans2s non-active-col">
+        <li style={showComContent?{}:{borderTop: '1px solid var(--forth-color)'}} id="com-col" className="trans2s non-active-col">
           <div onClick={() => commercialClick()} className="li-default">
             Commercial Locksmith Services<i className={showComContent?"fas fa-chevron-up":"fas fa-chevron-down"}></i>
           </div>
           {comContent}
         </li>
-        <li style={{marginRight: '0'}} id="res-col" className="trans2s non-active-col">
+        <li id="res-col" className="trans2s non-active-col">
           <div onClick={() => residentialClick()} className="li-default">
             Ressidential Locksmith Services<i className={showResContent?"fas fa-chevron-up":"fas fa-chevron-down"}></i>
           </div>
           {resContent}
         </li>
-        <li style={{marginRight: '0'}} id="aut-col" className="trans2s non-active-col">
+        <li id="aut-col" className="trans2s non-active-col">
           <div onClick={() => automotiveClick()} className="li-default">
             Automotive Locksmith Services<i className={showAutContent?"fas fa-chevron-up":"fas fa-chevron-down"}></i>
           </div>
           {autContent}
         </li>
-        <li style={{marginRight: '0'}} id="eme-col" className="trans2s non-active-col">
+        <li id="eme-col" className="trans2s non-active-col">
           <div onClick={() => emergencyClick()} className="li-default">
             Emergency Locksmith Services<i className={showEmeContent?"fas fa-chevron-up":"fas fa-chevron-down"}></i>
           </div>

@@ -30,22 +30,64 @@
 }
 
 #res-img {
-    height: 200px;
     background: url(/src/images/residential.jpg);
     background-size: cover;
 }
 #eme-img {
-    height: 200px;
     background: url(/src/images/emergency.jpg);
     background-size: cover;
 }
 #aut-img {
-    height: 200px;
     background: url(/src/images/automotive.jpg);
     background-size: cover;
 }
 #com-img {
-    height: 200px;
     background: url(/src/images/commercial.jpg);
     background-size: cover;
+}
+
+.card-img-height {
+    height: 200px;
+}
+
+@media only screen and (max-width: 740px) {
+    .card-img-height {
+        height: 300px;
+    }
+    .card {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .card-img-height {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #all-services h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #all-services h1 {
+        font-size: 1.3rem;
+    }
+    .card {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #all-services h1 {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    #all-services h1 {
+        font-size: 1rem;
+    }
 }

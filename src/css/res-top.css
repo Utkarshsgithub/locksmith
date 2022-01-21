@@ -15,3 +15,30 @@
     background: url(/src/images/main-img.jpg);
     background-size: cover;
 }
+
+@media only screen and (max-width: 625px) {
+    #res-top-img {
+        height: 300px;
+    }
+    #res-top-card {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    #res-top-img {
+        height: 300px;
+    }
+    #res-top-card {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #res-top-img {
+        height: 200px;
+    }
+    #res-top-card button {
+        margin-bottom: 50px;
+    }
+}
