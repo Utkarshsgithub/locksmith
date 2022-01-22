@@ -1,0 +1,47 @@
+#res-top-service-card {
+    height: 500px;
+    background: hsl(0, 100%, 96%);
+    padding: 50px;
+    margin-bottom: 200px;
+}
+
+#res-top-service-card h1 {
+    line-height: 40px;
+}
+
+#res-top-service-card p {
+    margin: 30px 0;
+}
+ 
+#res-top-service-img {
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    background: url('/src/images/best locksmith in florida.jpg');
+    background-size: cover;
+}
+
+@media only screen and (max-width: 590px) {
+    #res-top-service-img {
+        height: 300px;
+    }
+    #res-top-service-card {
+        padding: 25px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #res-top-service-img {
+        height: 200px;
+    }
+    #res-top-service-card {
+        padding: 15px;
+        margin-bottom: 100px;
+    }
+    #res-top-service-card h1 {
+        font-size: 1.5rem;
+    }
+    #res-top-service-card {
+        padding-bottom: 100px;
+    }
+}

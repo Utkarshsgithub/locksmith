@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Service from "./Service";
 
-// IMG IMPORTS
+// IMG IMPORTS --------------------------------------
 import commercial from "../images/commercial2.jpg";
 import emergency from "../images/emergency.jpg";
 import residential from "../images/residential.jpg";
 import automotive from "../images/automotive.jpg";
 import ResService from "./ResService";
-///////////////////////////////////////////////////
+// --------------------------------------------------
 
 export default function Tabs({ tab, setTab }) {
   const [h1, setH1] = useState("Commercial Locksmith Services");
@@ -125,7 +125,6 @@ export default function Tabs({ tab, setTab }) {
         p2={p2}
         tab={tab}
         service={service}
-        imgSrc={imgSrc}
       />
     );
   }

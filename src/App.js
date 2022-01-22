@@ -17,6 +17,7 @@ import "./css/contact.css";
 import "./css/about.css";
 import "./css/res-top.css";
 import "./css/res-service.css";
+import "./css/res-service-page.css";
 // --------------------------------
 
 // COMPONENTS IMPORTS -----------------------------

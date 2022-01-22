@@ -10,7 +10,7 @@
     padding: 25px;
     border-bottom: 1px solid var(--forth-color);
     font-size: 1.2rem;
-    
+    font-weight: bolder;
 }
 
 #res-service-table ul li i {
@@ -65,6 +65,18 @@
 @media only screen and (max-width: 370px) {
     #res-service-table ul li {
         width: 250px;
-        font-size: 1rem;
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #res-service-table {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    #res-service-table {
+        margin-top: 200px;
     }
 }
