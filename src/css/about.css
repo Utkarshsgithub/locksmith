@@ -29,6 +29,7 @@
 
 #top-main p {
     font-size: 1.3rem;
+    width: 764px;
 }
 
 #stylish-p {
@@ -44,6 +45,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .about-card {
@@ -51,8 +54,7 @@
     height: 500px;
     border: 0.1px solid rgba(17, 17, 17, 0.3);
     border-top: 10px solid var(--tirtary-color);
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin: 25px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -87,4 +89,79 @@
     justify-content: center;
     font-size: 2rem;
     color: var(--tirtary-color);
+}
+
+@media only screen and (max-width: 1060px) {
+    #top-main p {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #top-main {
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #top-main h1 {
+        margin: 10px 0 15px 0;
+        font-size: 3rem;
+    }
+    
+    #top-content {
+        margin-left: 25px;
+    }
+    
+    #top-main p {
+        font-size: 1rem;
+    }
+    #about-cards {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    #top-main h1 {
+        margin: 5px 0 7px 0;
+        font-size: 2rem;
+    }
+    
+    #top-content {
+        margin-left: 25px;
+    }
+    
+    #top-main p {
+        font-size: .8rem;
+    }
+    article h1 {
+        margin: 25px 0;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    #top-main {
+        height: 400px;
+    }
+    #top-main h1 {
+        line-height: 35px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #top-main {
+        height: 300px;
+    }
+    .about-card {
+        margin: 20px 10;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    article h1, h3 {
+        line-height: 40px;
+    }
+    article {
+        font-size: 1rem;
+    }
 }

@@ -38,7 +38,11 @@
     #res-top-img {
         height: 200px;
     }
-    #res-top-card button {
-        margin-bottom: 50px;
+    #res-top-card h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    #res-top-card p {
+        margin: 15px 0;
     }
 }

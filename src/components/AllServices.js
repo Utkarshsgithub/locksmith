@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AllServices({setProgress}) {
   setProgress(40)
@@ -14,7 +15,7 @@ export default function AllServices({setProgress}) {
             dolorem.
           </p>
           <p className='link'>
-            <a href="/">Read More</a>
+            <Link to="/residential-service">Read More</Link>
           </p>
         </div>
         <div className="card" id="com">
@@ -25,7 +26,7 @@ export default function AllServices({setProgress}) {
             dolorem.
           </p>
           <p className='link'>
-            <a href="/">Read More</a>
+            <Link to="/commercial-service">Read More</Link>
           </p>
         </div>
         <div className="card" id="aut">
@@ -36,7 +37,7 @@ export default function AllServices({setProgress}) {
             dolorem.
           </p>
           <p className='link'>
-            <a href="/">Read More</a>
+            <Link to="/automotive-service">Read More</Link>
           </p>
         </div>
         <div className="card" id="eme">
@@ -47,7 +48,7 @@ export default function AllServices({setProgress}) {
             dolorem.
           </p>
           <p className='link'>
-            <a href="/">Read More</a>
+            <Link to="/emergency-service">Read More</Link>
           </p>
         </div>
       </div>

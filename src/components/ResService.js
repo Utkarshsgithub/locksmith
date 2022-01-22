@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 
-export default function ResService({ h2, p1, p2, service, imgSrc }) {
+// IMG IMPORTS -------------------------------
+import comImg from '../images/commercial.jpg'
+import resImg from '../images/residential.jpg'
+import autImg from '../images/automotive.jpg'
+import emeImg from '../images/emergency.jpg'
+// -------------------------------------------
+
+export default function ResService({ h2, p1, p2, service}) {
   let comCol = document.getElementById("com-col");
   let resCol = document.getElementById('res-col');
   let autCol = document.getElementById('aut-col');
@@ -29,7 +36,7 @@ export default function ResService({ h2, p1, p2, service, imgSrc }) {
           <p className="link">
             <a href="/">{`Read all about our ${service} locksmith services`}</a>
           </p>
-          <img src={imgSrc} alt={`${service} service`} />
+          <img src={comImg} alt={`${service} service`} />
           <h2>{h2}</h2>
           <p>{p2}</p>
           <button id="cta-btn" className="btn">
@@ -55,7 +62,7 @@ export default function ResService({ h2, p1, p2, service, imgSrc }) {
           <p className="link">
             <a href="/">{`Read all about our ${service} locksmith services`}</a>
           </p>
-          <img src={imgSrc} alt={`${service} service`} />
+          <img src={resImg} alt={`${service} service`} />
           <h2>{h2}</h2>
           <p>{p2}</p>
           <button id="cta-btn" className="btn">
@@ -81,7 +88,7 @@ export default function ResService({ h2, p1, p2, service, imgSrc }) {
           <p className="link">
             <a href="/">{`Read all about our ${service} locksmith services`}</a>
           </p>
-          <img src={imgSrc} alt={`${service} service`} />
+          <img src={autImg} alt={`${service} service`} />
           <h2>{h2}</h2>
           <p>{p2}</p>
           <button id="cta-btn" className="btn">
@@ -107,7 +114,7 @@ export default function ResService({ h2, p1, p2, service, imgSrc }) {
           <p className="link">
             <a href="/">{`Read all about our ${service} locksmith services`}</a>
           </p>
-          <img src={imgSrc} alt={`${service} service`} />
+          <img src={emeImg} alt={`${service} service`} />
           <h2>{h2}</h2>
           <p>{p2}</p>
           <button id="cta-btn" className="btn">

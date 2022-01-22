@@ -56,11 +56,54 @@ form input {
 }
 
 #contact-img {
-
-}
-
-#contact-img {
     background: url(/src/images/automotive\ locksmith\ in\ florida.jpg);
     background-size: cover;
     width: 50%;
+}
+
+@media only screen and (max-width: 1330px) {
+    #lastname {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #contact-info {
+        height: 700px;
+    }
+    #contact-info h2 {
+        margin-top: 100px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #contact-info {
+        width: 100%;
+    }
+    #contact-img {
+        display: none;
+    }
+    #lastname {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    #lastname {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #contact-info h2 {
+        letter-spacing: 2px;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #contact-info h2 {
+        font-size: 1.5rem;
+    }
 }

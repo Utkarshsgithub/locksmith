@@ -45,12 +45,20 @@
 @media only screen and (max-width: 760px) {
     #res-service-table ul li {
         width: 400px;
+        font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #res-service-table ul li {
         width: 300px;
+    }
+    .li-content img {
+        height: 150px;
+    }
+    .li-content h2 {
+        margin: 10px 0;
+        line-height: 30px;
     }
 }
 

@@ -12,7 +12,7 @@ export default function AboutUs({ setProgress }) {
               <h1>Viking Locksmith</h1>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Architecto, amet? Ad natus <br /> tempora obcaecati ex amet
+                Architecto, amet? Ad natus tempora obcaecati ex amet
                 error tempore quae temporibus.
               </p>
             </div>
