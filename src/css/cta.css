@@ -36,7 +36,7 @@
         width: auto;
     }
     #cta-section {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(/src/images/small-img-cta.jpg);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(/src/images/small-img-cta.jpg);
         background-size: cover;
     }
 }
