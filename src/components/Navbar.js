@@ -3,10 +3,25 @@ import { Link } from "react-router-dom";
 
 export default function Navbar({setProgress}) {
   const [dropdown, setDropdown] = useState(false);
-  const [serviceUl, setServiceUl] = useState(<></>)
-  const [arrow, setArrow] = useState('fas fa-chevron-down')
+  const [serviceUl, setServiceUl] = useState(<></>);
+  const [arrow, setArrow] = useState('fas fa-chevron-down');
+  const [menuOpen, setMenuOpen] = useState(false);
 
   setProgress(10)
+
+  let button = document.getElementById('button')
+  let navbarMenu = document.getElementById('navbar-menu')
+  function menuClicked() {
+    if (menuOpen===false) {
+    button.classList.add('open')
+    setMenuOpen(true)
+    navbarMenu.style.transform = 'translate(0%)';
+    } else {
+    button.classList.remove('open')
+    setMenuOpen(false)
+    navbarMenu.style.transform = 'translate(100%)';
+  }
+  }
 
   function showDropdown() {
     if (dropdown === false) {
@@ -47,7 +62,7 @@ export default function Navbar({setProgress}) {
       <Link className="remove_link_style" to="/">
         <h4 id="logo">Viking</h4>
       </Link>
-      <ul className="remove_list_style">
+      <ul id="nav-links" className="remove_list_style">
         <li className="padding-50">
           <Link className="remove_link_style trans2s" to="/">
             Home
@@ -74,6 +89,20 @@ export default function Navbar({setProgress}) {
           </Link>
         </li>
       </ul>
+      <div onClick={()=>menuClicked()} id="button">
+        <div id="bars"></div>
+      </div>
+      <div id="navbar-menu">
+        <ul className="remove_list_style">
+          <li><Link className="remove_link_style" to="/home">Home</Link></li>
+          <li><Link className="remove_link_style" to="/contact">Contact Us</Link></li>
+          <li><Link className="remove_link_style" to="/about">About Us</Link></li>
+          <li><Link className="remove_link_style" to="/automotive-service">Automotive Services</Link></li>
+          <li><Link className="remove_link_style" to="/residential-service">Residential Services</Link></li>
+          <li><Link className="remove_link_style" to="/commercial-service">Commercial Services</Link></li>
+          <li><Link className="remove_link_style" to="/emergency-service">Emergency Services</Link></li>
+        </ul>
+      </div>
     </nav>
   );
 }
